@@ -26,14 +26,17 @@ Clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/Blessonjoel04/Air-Quality-Analysis-and-Modelling
 pip install -r requirements.txt
+```
 
 
 ## Results
 
-| Model                 | Accuracy | Precision | Recall | F1-Score |
-|-----------------------|----------|-----------|--------|----------|
-| Support Vector Machine | 94.40%  | 94.40%    | 94.40% | 94.40%   |
-| Naive Bayes           | 92.16%  | 92.18%    | 92.16% | 92.22%   |
-| Decision Tree         | 91.92%  | 91.92%    | 91.92% | 91.92%   |
-| Random Forest         | 95.44%  | 95.44%    | 95.44% | 95.44%   |
-| Gradient Boosting     | 95.28%  | 95.28%    | 95.28% | 95.28%   
+| Model                  | Accuracy | Precision | Recall | F1-Score |
+|------------------------|----------|-----------|--------|----------|
+| Support Vector Machine | 94.40%   | 94.40%    | 94.40% | 94.40%   |
+| Naive Bayes            | 92.16%   | 92.18%    | 92.16% | 92.22%   |
+| Decision Tree          | 91.92%   | 91.92%    | 91.92% | 91.92%   |
+| Extra Tree Classifier  | 91.28%   | 91.28%    | 91.28% | 91.28%   |
+| Random Forest          | 95.44%   | 95.44%    | 95.44% | 95.44%   |
+| AdaBoost Classifier    | 73.68%   | 73.68%    | 73.68% | 73.68%   |
+| Gradient Boosting      | 95.28%   | 95.28%    | 95.28% | 95.28%   |
